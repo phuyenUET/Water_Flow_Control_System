@@ -1,0 +1,130 @@
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\DKAS.exe.config
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\DKAS.exe
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\DKAS.pdb
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.Form1.resources
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.exe
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.pdb
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\ZedGraph.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\ZedGraph.xml
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Lenovo\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.Up2Date
+D:\giáo trình\DKAS\DKAS\bin\Debug\DKAS.exe.config
+D:\giáo trình\DKAS\DKAS\bin\Debug\DKAS.exe
+D:\giáo trình\DKAS\DKAS\bin\Debug\DKAS.pdb
+D:\giáo trình\DKAS\DKAS\bin\Debug\ZedGraph.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\ZedGraph.xml
+D:\giáo trình\DKAS\DKAS\bin\Debug\de\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\es\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\fr\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\hu\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\it\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\ja\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\pt\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\ru\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\sk\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\sv\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\tr\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.csproj.AssemblyReference.cache
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.Form1.resources
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.Properties.Resources.resources
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.csproj.GenerateResource.cache
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.csproj.CoreCompileInputs.cache
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.csproj.CopyComplete
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.exe
+D:\giáo trình\DKAS\DKAS\obj\Debug\DKAS.pdb
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\DKAS.exe.config
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\DKAS.exe
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\DKAS.pdb
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\ZedGraph.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\ZedGraph.xml
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.Form1.resources
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.Properties.Resources.resources
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.csproj.Up2Date
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.exe
+C:\Users\USER\Desktop\DKAS\DKAS\obj\Debug\DKAS.pdb
+D:\Documents\C#\DKLL\DKAS\bin\Debug\DKAS.exe.config
+D:\Documents\C#\DKLL\DKAS\bin\Debug\DKAS.exe
+D:\Documents\C#\DKLL\DKAS\bin\Debug\DKAS.pdb
+D:\Documents\C#\DKLL\DKAS\bin\Debug\ZedGraph.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\ZedGraph.xml
+D:\Documents\C#\DKLL\DKAS\bin\Debug\de\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\es\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\fr\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\hu\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\it\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\ja\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\pt\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\ru\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\sk\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\sv\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\tr\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.csproj.AssemblyReference.cache
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.Form1.resources
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.Properties.Resources.resources
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.csproj.GenerateResource.cache
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.csproj.CoreCompileInputs.cache
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.csproj.Up2Date
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.exe
+D:\Documents\C#\DKLL\DKAS\obj\Debug\DKAS.pdb
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\DKAS.exe.config
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\DKAS.exe
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\DKAS.pdb
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\ZedGraph.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\ZedGraph.xml
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\de\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\es\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\fr\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\hu\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\it\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\ja\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\pt\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\ru\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\sk\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\sv\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\tr\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.csproj.AssemblyReference.cache
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.Form1.resources
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.Properties.Resources.resources
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.csproj.GenerateResource.cache
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.csproj.CoreCompileInputs.cache
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.csproj.Up2Date
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.exe
+E:\OneDrive - vnu.edu.vn\Giao Trinh\Ung dung may tinh trong do luong va dieu khien\Báo cáo + File Project Điều khiển lưu lượng nước\DKLL\DKAS\obj\Debug\DKAS.pdb
