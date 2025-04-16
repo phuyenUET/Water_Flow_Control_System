@@ -25,7 +25,63 @@ char str[20], tmp[8];
 char uart_buffer[16]; // Bien tam luu du lieu tu UART
 volatile uint8_t uart_index = 0; // chi so cua bien buffer
 volatile uint8_t uart_flag = 0; // co hieu nhan duoc du lieu tu usart
+volatile uint8_t timer0_ovf_count = 0;
+double distance;
 
+
+
+
+//-------------------------------------HC_SR04---------------------------------------------
+// #define Trigger_pin PA0
+// #define Echo_pin PD6
+// volatile int TimerOverflow = 0;
+// volatile uint8_t readDistanceFlag = 0;
+// uint8_t distanceReadCounter = 0;
+// 
+// ISR(TIMER1_OVF_vect)
+// {
+// 	TimerOverflow++;
+// }
+// 
+// void HCSR04_init()
+// {
+// 	DDRA |= (1 << Trigger_pin);	    // Trig là output
+// 	DDRD &= ~(1 << PD6);			// ICP1 (PD6) là input (m?c ??nh)
+// 	TIMSK |= (1 << TOIE1);			// Cho phép ng?t tràn Timer1
+// 	TCCR1A = 0;						// Normal mode
+// }
+
+// double HCSR04_readDistance()
+// {
+// 	long count;
+// 	double distance;
+// 
+// 	// gui xung trigger 10µs
+// 	PORTA |= (1 << Trigger_pin);
+// 	_delay_us(10);
+// 	PORTA &= ~(1 << Trigger_pin);
+// 
+// 	// chuan bi bat canh len
+// 	TCCR1B = 0x41; // Noise cancel, rising edge, no prescaler
+// 	TCNT1 = 0;
+// 	TIFR = (1 << ICF1) | (1 << TOV1); // xoa co
+// 
+// 	// cho\ canh len
+// 	while (!(TIFR & (1 << ICF1)));
+// 	TCNT1 = 0;
+// 	TCCR1B = 0x01; // bat canh xuong (falling edge), no prescaler
+// 	TIFR = (1 << ICF1) | (1 << TOV1);
+// 	TimerOverflow = 0;
+// 
+// 	// cho\ canh xuong
+// 	while (!(TIFR & (1 << ICF1)));
+// 
+// 	count = ICR1 + (65535L * TimerOverflow); //tong thoi gian xung echo muc high
+// 
+// 	distance = (double)count / 466.47;
+// 
+// 	return distance;
+// }
 
 
 
@@ -43,7 +99,7 @@ float integral = 0;
 
 //------------------------------------HANG SO PID va HAM TINH PID-------------------------------------------	
 const float Kp = 0.05;
-const float Ki = 0.008;
+const float Ki = 0.009;
 const float Kd = 0.00655;
 
 float calculatePID(float setpoint, float measuredValue)
@@ -59,16 +115,18 @@ float calculatePID(float setpoint, float measuredValue)
 
 
 
-//------------------------------------TIMER1_INIT-------------------------------------------
-void Timer1_init()
+//------------------------------------TIMER0_INIT-------------------------------------------
+void Timer0_init()
 {
-	TCCR1B = (1 << CS12)| (0 << CS11) | (0 << CS10);															// prescale = F_CPU/256
-	TCNT1 = 34285;																								// Gia tri khoi dau cua Timer1 ( 2^16 - 1*8000000/256 = 34285 ) ***1giay***
+	TCCR0 = (1 << CS02) | (1 << CS00); // Prescaler = 1024
+	TCNT0 = 0;
+	TIMSK |= (1 << TOIE0);             // Enable Timer0 overflow interrupt
 }
+
 
 void enableReadFlow()
 {
-	TCNT1 = 34285;			// Gia tri khoi dau cua Timer1
+	TCNT0 = 0;			// Gia tri khoi dau cua Timer0
 	count = 0;
 }
 
@@ -135,12 +193,22 @@ void UART_write(char *string)
 
 
 //-------------------------------------INTERRUPT---------------------------------------
-ISR(TIMER1_OVF_vect)
+ISR(TIMER0_OVF_vect)
 {
-	TCNT1 = 34285;
-	pulse = count;
-	count = 0;
-	flag = 1;
+	timer0_ovf_count++;
+	if (timer0_ovf_count >= 30) // 1giay
+	{
+		timer0_ovf_count = 0;
+		pulse = count;
+		count = 0;
+		flag = 1;
+	}
+// 	distanceReadCounter++;
+// 	if (distanceReadCounter >= 150)  // doc kc moi 5s
+// 	{
+// 		distanceReadCounter = 0;
+// 		readDistanceFlag = 1;
+// 	}
 }
 ISR(INT2_vect)
 {
@@ -169,7 +237,6 @@ int main(void)
 	// Timer(s)/Counter(s) Interrupt(s) initialization
 	TIMSK = (0 << OCIE2) | (0 << TOIE2) | (0 << TICIE1) | (0 << OCIE1A) | (0 << OCIE1B) | (1 << TOIE1) | (0 << OCIE0) | (1 << TOIE0);
 	
-	Timer1_init();
 	
 	enableReadFlow();
 	
@@ -179,9 +246,11 @@ int main(void)
 	PORTB |= (1 << PINB2); // Kich hoat Pull-up cho PD2
 	GICR |= (1<<INT2);
 	MCUCSR &= ~(1<<ISC2); // Clear ISC2 bit to trigger interrupt on falling edge
+
+/*	HCSR04_init();*/
 	
 	UART_Init();
-
+	Timer0_init();  
 	sei();
 	
 	while (1)
@@ -264,10 +333,20 @@ int main(void)
 				integral = 0;
 			}
 		}
+// 		if (readDistanceFlag)
+// 		{
+// 			readDistanceFlag = 0;
+// 			distance = HCSR04_readDistance();
+// 			
+// 			
+// 			dtostrf(distance, 2, 2, tmp);
+// 			sprintf(str, "D:%s cm\r\n", tmp);
+// 			UART_write(str);
+// 			
+// 			if (distance <= 10)
+// 			{
+// 				StatePump = 0;
+// 			}
+// 		}
 	}
 }
-
-
-
-
-

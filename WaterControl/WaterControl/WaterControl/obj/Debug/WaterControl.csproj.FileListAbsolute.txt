@@ -1,0 +1,52 @@
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\WaterControl.exe.config
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\WaterControl.exe
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\WaterControl.pdb
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\ZedGraph.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\ZedGraph.xml
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\de\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\es\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\fr\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\hu\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\it\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\ja\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\pt\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\ru\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\sk\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\sv\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\tr\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.AssemblyReference.cache
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.Form1.resources
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.Properties.Resources.resources
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.GenerateResource.cache
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterCon.C29D291B.Up2Date
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.exe
+D:\VisualStudio\Programme\WaterControl\WaterControl\obj\Debug\WaterControl.pdb
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\WaterControl.exe.config
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\WaterControl.exe
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\WaterControl.pdb
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\ZedGraph.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\ZedGraph.xml
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\de\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\es\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\fr\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\hu\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\it\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\ja\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\pt\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\ru\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\sk\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\sv\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\tr\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.AssemblyReference.cache
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.Form1.resources
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.Properties.Resources.resources
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.GenerateResource.cache
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.csproj.CoreCompileInputs.cache
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterCon.C29D291B.Up2Date
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.exe
+E:\OneDrive - vnu.edu.vn\Desktop\GitHub\Water_Flow_Control_System\WaterControl\WaterControl\WaterControl\obj\Debug\WaterControl.pdb

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\",
+  "WorkspaceRootPath": "E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|e:\\onedrive - vnu.edu.vn\\giao trinh\\ung dung may tinh trong do luong va dieu khien\\file\\dkll\\dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|e:\\onedrive - vnu.edu.vn\\desktop\\github\\water_flow_control_system\\dkll\\dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|solutionrelative:dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4746A1AB-D542-47A8-8B87-EA14C6DE776A}|DKAS\\DKAS.csproj|solutionrelative:dkas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\DKAS\\Form1.cs",
+              "DocumentMoniker": "E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\DKAS\\Form1.cs",
               "RelativeDocumentMoniker": "DKAS\\Form1.cs",
-              "ToolTip": "E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\DKAS\\Form1.cs [Design]",
+              "ToolTip": "E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\DKAS\\Form1.cs [Design]",
               "RelativeToolTip": "DKAS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T19:05:01.301Z",
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\DKAS\\Form1.cs",
+              "DocumentMoniker": "E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\DKAS\\Form1.cs",
               "RelativeDocumentMoniker": "DKAS\\Form1.cs",
-              "ToolTip": "E:\\OneDrive - vnu.edu.vn\\Giao Trinh\\Ung dung may tinh trong do luong va dieu khien\\File\\DKLL\\DKAS\\Form1.cs",
+              "ToolTip": "E:\\OneDrive - vnu.edu.vn\\Desktop\\GitHub\\Water_Flow_Control_System\\DKLL\\DKAS\\Form1.cs",
               "RelativeToolTip": "DKAS\\Form1.cs",
               "ViewState": "AgIAADwAAAAAAAAAAADwv0MAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
