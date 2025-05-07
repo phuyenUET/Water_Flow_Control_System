@@ -31,62 +31,6 @@ double distance;
 
 
 
-//-------------------------------------HC_SR04---------------------------------------------
-// #define Trigger_pin PA0
-// #define Echo_pin PD6
-// volatile int TimerOverflow = 0;
-// volatile uint8_t readDistanceFlag = 0;
-// uint8_t distanceReadCounter = 0;
-// 
-// ISR(TIMER1_OVF_vect)
-// {
-// 	TimerOverflow++;
-// }
-// 
-// void HCSR04_init()
-// {
-// 	DDRA |= (1 << Trigger_pin);	    // Trig là output
-// 	DDRD &= ~(1 << PD6);			// ICP1 (PD6) là input (m?c ??nh)
-// 	TIMSK |= (1 << TOIE1);			// Cho phép ng?t tràn Timer1
-// 	TCCR1A = 0;						// Normal mode
-// }
-
-// double HCSR04_readDistance()
-// {
-// 	long count;
-// 	double distance;
-// 
-// 	// gui xung trigger 10µs
-// 	PORTA |= (1 << Trigger_pin);
-// 	_delay_us(10);
-// 	PORTA &= ~(1 << Trigger_pin);
-// 
-// 	// chuan bi bat canh len
-// 	TCCR1B = 0x41; // Noise cancel, rising edge, no prescaler
-// 	TCNT1 = 0;
-// 	TIFR = (1 << ICF1) | (1 << TOV1); // xoa co
-// 
-// 	// cho\ canh len
-// 	while (!(TIFR & (1 << ICF1)));
-// 	TCNT1 = 0;
-// 	TCCR1B = 0x01; // bat canh xuong (falling edge), no prescaler
-// 	TIFR = (1 << ICF1) | (1 << TOV1);
-// 	TimerOverflow = 0;
-// 
-// 	// cho\ canh xuong
-// 	while (!(TIFR & (1 << ICF1)));
-// 
-// 	count = ICR1 + (65535L * TimerOverflow); //tong thoi gian xung echo muc high
-// 
-// 	distance = (double)count / 466.47;
-// 
-// 	return distance;
-// }
-
-
-
-
-
 //-------------------------------------BIEN PID---------------------------------------------
 float setPoint = 0, tmpSetPoint;
 float previousError = 0;
@@ -203,12 +147,6 @@ ISR(TIMER0_OVF_vect)
 		count = 0;
 		flag = 1;
 	}
-// 	distanceReadCounter++;
-// 	if (distanceReadCounter >= 150)  // doc kc moi 5s
-// 	{
-// 		distanceReadCounter = 0;
-// 		readDistanceFlag = 1;
-// 	}
 }
 ISR(INT2_vect)
 {
@@ -232,6 +170,8 @@ ISR(USART_RXC_vect)
 //--------------------------------------MAIN------------------------------------------
 int main(void)
 {
+	DDRA &= ~(1 << PINA0);
+	PORTA = 0x00;
 	DDRD |= (1 << PIND7) ; // PD7 dau ra PWM
 	
 	// Timer(s)/Counter(s) Interrupt(s) initialization
@@ -246,15 +186,22 @@ int main(void)
 	PORTB |= (1 << PINB2); // Kich hoat Pull-up cho PD2
 	GICR |= (1<<INT2);
 	MCUCSR &= ~(1<<ISC2); // Clear ISC2 bit to trigger interrupt on falling edge
-
-/*	HCSR04_init();*/
 	
 	UART_Init();
 	Timer0_init();  
 	sei();
 	
 	while (1)
-	{
+	{	
+		if ((PINA & (1 << PINA0))==1)
+		{
+			StatePump = 0;
+			disablePump();
+			previousError = 0;
+			integral = 0;
+		}
+
+		
 		if (flag)	//doc xong du lieu tu cam bien luu luong
 		{
 			flag=0;
@@ -333,20 +280,5 @@ int main(void)
 				integral = 0;
 			}
 		}
-// 		if (readDistanceFlag)
-// 		{
-// 			readDistanceFlag = 0;
-// 			distance = HCSR04_readDistance();
-// 			
-// 			
-// 			dtostrf(distance, 2, 2, tmp);
-// 			sprintf(str, "D:%s cm\r\n", tmp);
-// 			UART_write(str);
-// 			
-// 			if (distance <= 10)
-// 			{
-// 				StatePump = 0;
-// 			}
-// 		}
 	}
 }
