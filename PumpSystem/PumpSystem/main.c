@@ -27,6 +27,7 @@ volatile uint8_t uart_index = 0; // chi so cua bien buffer
 volatile uint8_t uart_flag = 0; // co hieu nhan duoc du lieu tu usart
 volatile uint8_t timer0_ovf_count = 0;
 double distance;
+char sensor[10];
 
 
 
@@ -199,6 +200,9 @@ int main(void)
 			disablePump();
 			previousError = 0;
 			integral = 0;
+			strcpy(sensor, "LOW");
+		} else {
+			strcpy(sensor, "HIGH");
 		}
 
 		
@@ -235,14 +239,16 @@ int main(void)
 			dtostrf(currentFlow, 2, 2, tmp);
 			if (StatePump)
 			{
-				sprintf(str, "%s|ON\r\n", tmp);
+				sprintf(str, "%s|ON|", tmp);
 			}
 			else
 			{
-				sprintf(str, "%s|OFF\r\n", tmp);
+				sprintf(str, "%s|OFF|", tmp);
 			}
-
 			UART_write(str);		//send flow data
+			
+			sprintf(str, "%s\r\n",sensor);
+			UART_write(str);		//send sensor_state	
 		}
 		if (uart_flag)	//nhan duoc du lieu
 		{
